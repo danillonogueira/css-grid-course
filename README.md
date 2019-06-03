@@ -45,3 +45,19 @@ Or
 ~~~
 grid-column: 1 / 3;
 ~~~
+~~~
+grid-column: 1 / span 2;
+~~~
+~~~
+grid-column: 1 / -1;
+~~~
+### Determines the space targeted element will take in a grid column:
+~~~
+grid-row: 1 / 3;
+~~~
+~~~
+grid-row: 1 / span 2;
+~~~
+~~~
+grid-row: 1 / -1;
+~~~
