@@ -36,8 +36,12 @@ grid-template-rows: repeat(2, 50px);
 ~~~
 grid-template: repeat(2, 50px) / repeat(3, 1fr);
 ~~~
-### Determines the space targeted element will take in the grid:
+### Determines the space targeted element will take in a grid row:
 ~~~
 grid-column-start: 1;
 grid-column-end: 3;
+~~~
+Or
+~~~
+grid-column: 1 / 3;
 ~~~
