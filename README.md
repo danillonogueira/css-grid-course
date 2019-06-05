@@ -168,3 +168,4 @@ More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-con
     grid-template-rows: 100px 100px;
 }
 ~~~
+![auto-fit vs auto-fill](/assets/autofitvsautofill.jpg)
