@@ -82,16 +82,16 @@ grid-row: 1 / -1;
   grid-area: f;
 }
 ~~~
-### Setting a dynamic number of columns
+### Setting a dynamic number of columns:
 ~~~
 .container {
   grid-template-columns: repeat(auto-fit, 100px);
 }
 ~~~
-### Setting a dynamic width for the columns
+### Setting a dynamic width for the columns:
 ~~~
 .container {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 ~~~
-*The __minmax__ property sets a minimum and maximum width columns can occupy in the grid. It seems to be a good practice in order to avoid unwanted blank spaces in the grid.*
+*The __minmax__ property sets a minimum and maximum width columns can occupy in the grid. It seems to be a good practice in order to avoid unwanted blank spaces in the grid. The max value set in fraction units plays an important role here.*
