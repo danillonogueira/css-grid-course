@@ -156,3 +156,15 @@ align-content: center;
 align-content: end;
 ~~~
 More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content).
+### Auto-fit vs auto-fill
+~~~
+.auto-fit-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
+
+.auto-fill-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
+~~~
