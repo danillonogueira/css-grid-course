@@ -61,9 +61,9 @@ grid-row: 1 / -1;
 ~~~
 .container {
   grid-template-areas:
-    "m h h"
-    "m c c"
-    "m f f";
+    "m h h h h h h h h h h h"
+    "m c c c c c c c c c c c"
+    "m f f f f f f f f f f f";
 }
 
 .header {
@@ -82,6 +82,7 @@ grid-row: 1 / -1;
   grid-area: f;
 }
 ~~~
+![template areas](/assets/TemplateAreas.jpg)
 ### Using named lines for determining space
 ~~~
 .container {
@@ -101,6 +102,7 @@ grid-row: 1 / -1;
   grid-column: main;
 }
 ~~~
+![named lines](/assets/NamedLines.jpg)<br />
 *Interestingly, the dash synthax allows us to write less when targeting the grid cells. This means we just have to use the sufixes __-start__ and __-end__ when targeting the grid container.*
 ### Setting a dynamic number of columns
 ~~~
@@ -138,6 +140,9 @@ grid-auto-rows: 100px;
   grid-row: span 2;
 }
 ~~~
+Without grid-auto-flow | With grid-auto-flow
+------------------- | ----------------------
+![without auto-flow](assets/WithoutAutoFlow.jpg) | ![with auto-flow](assets/WithAutoFlow.jpg)
 *The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).*
 ### Using justify and align properties in grid
 ~~~
@@ -168,4 +173,4 @@ More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-con
     grid-template-rows: 100px 100px;
 }
 ~~~
-![auto-fit vs auto-fill](/assets/autofitvsautofill.jpg)
+![auto-fit vs auto-fill](/assets/AutoFitVsAutofill.jpg)
