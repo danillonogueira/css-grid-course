@@ -118,4 +118,4 @@ grid-auto-rows: 100px;
   grid-row: span 2;
 }
 ~~~
-*The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).*
+*The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).*
