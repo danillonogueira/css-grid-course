@@ -57,7 +57,7 @@ grid-row: 1 / span 2;
 ~~~
 grid-row: 1 / -1;
 ~~~
-### Using grid-area for determining space
+### Using grid-template-areas for determining space
 ~~~
 .container {
   grid-template-areas:
@@ -82,6 +82,26 @@ grid-row: 1 / -1;
   grid-area: f;
 }
 ~~~
+### Using named lines for determining space
+~~~
+.container {
+  grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
+  grid-template-rows: [main-start] 40px [content-start] auto [content-end] 40px [main-end]; 
+}
+
+.header {
+  grid-column: main;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-column: main;
+}
+~~~
+*Interestingly, the dash synthax allows us to write less when targeting the grid cells. This means we just have to use the sufixes __-start__ and __-end__ when targeting the grid container.*
 ### Setting a dynamic number of columns
 ~~~
 .container {
@@ -119,3 +139,20 @@ grid-auto-rows: 100px;
 }
 ~~~
 *The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).*
+### Using justify and align properties in grid
+~~~
+justify-content: center;
+~~~
+~~~
+justify-content: space-around;
+~~~
+~~~
+justify-content: space-evenly;
+~~~
+~~~
+align-content: center;
+~~~
+~~~
+align-content: end;
+~~~
+More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content).
