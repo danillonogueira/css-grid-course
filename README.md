@@ -1,4 +1,7 @@
 # CSS Grid Course
+CSS Grid course by Free Code Camp.
+## Table of Contents
+1. [Creating a grid](#creating-a-grid)
 ### Creating a grid
 ```
 display: grid;
