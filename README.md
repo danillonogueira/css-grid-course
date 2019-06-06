@@ -116,7 +116,7 @@ grid-row: 1 / -1;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 ```
->The __minmax__ property sets a minimum and maximum width columns can occupy in the grid. It seems to be a good practice so as to avoid unwanted blank spaces in the grid. The max value set in fraction units plays an important role here.
+> The __minmax__ property sets a minimum and maximum width columns can occupy in the grid. It seems to be a good practice so as to avoid unwanted blank spaces in the grid. The max value set in fraction units plays an important role here.
 ### Setting a dynamic number of rows
 ```
 grid-auto-rows: 100px;
@@ -153,8 +153,7 @@ With grid-auto-flow
 Without grid-auto-flow | With grid-auto-flow
 --- | ---
 ![without auto-flow](assets/WithoutAutoFlow.JPG) | ![with auto-flow](assets/WithAutoFlow.JPG)
-<br />
-> The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
+>The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
 ### Using justify and align properties in grid
 ```
 justify-content: center;
