@@ -140,6 +140,7 @@ grid-auto-rows: 100px;
   grid-row: span 2;
 }
 ```
+<!--
 Without grid-auto-flow
 <br />
 ![without auto-flow](assets/WithoutAutoFlow.JPG)
@@ -148,7 +149,12 @@ With grid-auto-flow
 <br />
 ![with auto-flow](assets/WithAutoFlow.JPG)
 <br />
->The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
+-->
+Without grid-auto-flow | With grid-auto-flow
+--- | ---
+![without auto-flow](assets/WithoutAutoFlow.JPG) | ![with auto-flow](assets/WithAutoFlow.JPG)
+<br />
+> The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
 ### Using justify and align properties in grid
 ```
 justify-content: center;
