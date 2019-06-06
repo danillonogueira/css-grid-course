@@ -187,7 +187,7 @@ align-content: center;
 ```
 align-content: end;
 ```
-More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content).
+>More options [here](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content).
 ### Auto-fit vs auto-fill
 ```
 .auto-fit-container {
