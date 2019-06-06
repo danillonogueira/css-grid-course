@@ -2,6 +2,20 @@
 CSS Grid course by Free Code Camp.
 ## Table of Contents
 1. [Creating a grid](#creating-a-grid)
+2. [Assigning columns and their respective width](#assigning-columns-and-their-respective-width)
+3. [Assigning rows and their respective height](#assigning-rows-and-their-respective-height)
+4. [Defining a gap that separates the grid cells](#defining-a-gap-that-separates-the-grid-cells)
+5. [Fraction units can be used for defining width and height](#fraction-units-can-be-used-for-defining-width-and-height)
+6. [Shorter method for defining width and height](#shorter-method-for-defining-width-and-height)
+7. [Determines the space targeted element will take in a grid row](#determines-the-space-targeted-element-will-take-in-a-grid-row)
+8. [Determines the space targeted element will take in a grid column](#determines-the-space-targeted-element-will-take-in-a-grid-column)
+9. [Using grid-template-areas for determining space](#using-grid-template-areas-for-determining-space)
+10. [Using named lines for determining space](#using-named-lines-for-determining-space)
+11. [Setting a dynamic number of columns](#setting-a-dynamic-number-of-columns)
+12. [Setting a dynamic width for the columns](#setting-a-dynamic-width-for-the-columns)
+13. [Setting a dynamic number of rows](#setting-a-dynamic-number-of-rows)
+14. [Creating a dynamic grid for cells with varying sizes](#creating-a-dynamic-grid-for-cells-with-varying-sizes)
+15. [Using justify and align properties in grid](#using-justify-and-align-properties-in-a-grid)
 ### Creating a grid
 ```
 display: grid;
@@ -157,7 +171,7 @@ Without grid-auto-flow | With grid-auto-flow
 --- | ---
 ![without auto-flow](assets/WithoutAutoFlow.JPG) | ![with auto-flow](assets/WithAutoFlow.JPG)
 >The __grid-auto-flow__ property accepts other values. The __dense__ value was used as an example because it seems to be the one that best does the trick, forcing smaller cells to go up the grid if necessary. You can check alternative values [here](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow).
-### Using justify and align properties in grid
+### Using justify and align properties in a grid
 ```
 justify-content: center;
 ```
