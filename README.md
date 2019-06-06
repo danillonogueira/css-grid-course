@@ -16,6 +16,7 @@ CSS Grid course by Free Code Camp.
 13. [Setting a dynamic number of rows](#setting-a-dynamic-number-of-rows)
 14. [Creating a dynamic grid for cells with varying sizes](#creating-a-dynamic-grid-for-cells-with-varying-sizes)
 15. [Using justify and align properties in grid](#using-justify-and-align-properties-in-a-grid)
+16. [Auto-fit vs auto-fill](#auto-fit-vs-auto-fill)
 ### Creating a grid
 ```
 display: grid;
