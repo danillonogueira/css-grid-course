@@ -1,5 +1,5 @@
 # CSS Grid Course
-CSS Grid course by Free Code Camp.
+Notes from [CSS Grid course](https://scrimba.com/g/gR8PTE) by [freeCodeCamp](https://www.freecodecamp.org/).
 ## Table of Contents
 1. [Creating a grid](#creating-a-grid)
 2. [Assigning columns and their respective width](#assigning-columns-and-their-respective-width)
